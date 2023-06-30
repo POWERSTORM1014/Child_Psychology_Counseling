@@ -138,10 +138,17 @@
   border-radius: 1px;
   text-align: center;
   cursor: pointer;
-  width: 130px;
+  width: 130px; /* 원래의 크기를 유지 */
   height: 48px;
   margin-left: 0px;
   box-sizing: border-box;
-  font-size: 16px;
-  box-shadow: inset 0 0 0 0.5px white; /* spread 값을 1px로 수정하였습니다 */
+  font-size: 16px; /* 원래의 폰트 크기를 유지 */
+  box-shadow: inset 0 0 0 0.5px white;
+}
+
+@media screen and (max-width: 600px) {
+  .buttonStyle {
+    width: 100px; /* 화면 크기가 600px 이하일 때 너비를 줄임 */
+    font-size: 14px; /* 화면 크기가 600px 이하일 때 폰트 크기를 줄임 */
+  }
 }
