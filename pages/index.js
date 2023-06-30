@@ -177,7 +177,7 @@ export default function Home() {
               onClick={downloadChatLog}
               className={styles.buttonStyle}
             >
-              내용 다운받기
+              다운받기
             </button>
           </form>
         </div>
