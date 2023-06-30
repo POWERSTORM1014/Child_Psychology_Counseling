@@ -78,7 +78,7 @@
   border-radius: 1px;
   text-align: center;
   cursor: pointer;
-  width: 90px;
+  width: 100px;
   height: 48px;
   margin-left: 5px;
   margin-right: 5px;
@@ -138,7 +138,7 @@
   border-radius: 1px;
   text-align: center;
   cursor: pointer;
-  width: 130px; /* 원래의 크기를 유지 */
+  width: 100px; /* 원래의 크기를 유지 */
   height: 48px;
   margin-left: 0px;
   box-sizing: border-box;
